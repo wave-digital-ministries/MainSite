@@ -18,7 +18,9 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #0099ff;
+  background-color: #D2DADD;
+  border-bottom-left-radius: 3mm;
+  border-bottom-right-radius: 3mm;
   outline: 1px solid slategrey;
 }
 .index::-webkit-scrollbar {
@@ -472,10 +474,12 @@ header:hover{
     text-decoration-color: #1a1a1a;
 }
 .con9{
-  background-image: url(./shell.jpg);
+  background-image: url(./header.JPG);
+  background-size: cover;
+  
   border-style: none;
   border-radius: 1mm;
-  background-position: bottom;
+  background-position: center;
   width: 95%;
   box-shadow: 0mm 0mm 4mm #1a1a1a;
   -webkit-transition-duration: 1.1s; /* Safari */
