@@ -471,6 +471,16 @@ header:hover{
   text-decoration: underline;
     text-decoration-color: #1a1a1a;
 }
+.con9{
+  background-image: url(./shell.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: bottom;
+  width: 95%;
+  box-shadow: 0mm 0mm 4mm #1a1a1a;
+  -webkit-transition-duration: 1.1s; /* Safari */
+  transition-duration: 1.0s;
+}
 .con10{
   background-image: url(./css.jpg);
   border-style: none;
