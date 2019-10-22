@@ -232,7 +232,14 @@ footer{
 bottom: 10mm;
 }
 
-
+ul{
+list-style-type: none;
+column-count: 2;
+padding: 5mm;
+}
+li{
+height: auto;
+}
 
 
 hr{
