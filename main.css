@@ -488,6 +488,18 @@ header:hover{
   text-decoration: underline;
     text-decoration-color: #1a1a1a;
 }
+#a1{
+  color:#1a1a1a;
+  text-decoration: underline;
+  text-decoration-color: #1a1a1a;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}#a1:hover{
+  color:#64878D;
+  text-decoration: underline;
+  text-decoration-color: #64878D;
+
+}
 .con9{
   background-image: url(./header.JPG);
   background-size: cover;
