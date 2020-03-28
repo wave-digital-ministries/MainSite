@@ -1135,6 +1135,18 @@ section.lazy-placeholder:after {
 .cid-rUtJuYdUaR .mbr-section-title {
   color: #1a1a1a;
 }
+#custom-html-16 {
+  /* Type valid CSS here */
+}
+#custom-html-16 div {
+  padding: 10px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-16 p {
+  font-size: 60px;
+  color: #777;
+}
 .cid-rSOBifUwRw {
   background-image: url("../../../assets/images/homeoffice-1920x1280.jpg");
 }
