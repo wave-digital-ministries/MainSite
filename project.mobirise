@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "WDM | Main",
-    "currentPage": "index.html",
+    "currentPage": "about.html",
     "theme": {
       "name": "techm4",
       "title": "TechM4",
@@ -56,7 +56,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 48,
+    "uniqCompNum": 49,
     "versionPublish": "4.12.1",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -1830,6 +1830,58 @@
           "_global": true,
           "_once": "menu",
           "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".count": {
+              "text-align": "left",
+              "word-break": "inherit"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#8d97ad"
+            },
+            ".mbr-content-title": {
+              "color": "#8d97ad"
+            },
+            ".panel-item": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center"
+            },
+            ".card": {
+              "word-wrap": "break-word"
+            },
+            ".mbr-iconfont": {
+              "font-size": "50px",
+              "color": "#232323",
+              "padding-right": "1rem"
+            },
+            "@media (max-width: 991px)": {
+              ".panel-item": {
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              }
+            }
+          },
+          "_name": "extCounters2",
+          "_customHTML": "<section class=\"extCounters counters\" group=\"Additional Blocks\" plugins=\"ViewportChecker\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n\n        <input type=\"checkbox\" title=\"Show Block Title\" name=\"showTitles\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n\n        <select title=\"Cards Count\" name=\"cardsAmount\">\n           <option value=\"1\">1</option>\n           <option value=\"2\">2</option>\n           <option value=\"3\" selected>3</option>\n           <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/iM-NestDPNQ\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title  align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            Our Impact</h2>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic accusamus<br>voluptatum consequatur delectus iusto quas, asperiores quasi excepturi cumque numquam.\n        </h3>\n\n        <div class=\"container pt-4 mt-2\">\n            <div class=\"media-container-row\">\n                <div class=\"card p-3 align-center col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4','col-lg-4': cardsAmount == '3'}\">\n                    <div class=\"panel-item\">\n                        <div class=\"icon-wrap \" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbr-iconfont mbrib-users\"></span>\n                        </div>\n\n                        <div class=\"card-text\">\n                            <h3 class=\"count pt-3  mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                                  124389</h3>\n                            <h4 class=\"mbr-content-title mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\" data-app-selector=\".mbr-content-title\">\n                                People reached</h4>\n                        </div>\n                    </div>\n                </div>\n\n\n                <div class=\"card p-3 align-center col-12 col-md-6\" mbr-if=\"cardsAmount>1\" mbr-class=\"{'col-lg-3': cardsAmount == '4','col-lg-4': cardsAmount == '3'}\">\n                    <div class=\"panel-item\">\n                        <div class=\"icon-wrap \" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbr-iconfont mbrib-globe\"></span>\n                        </div>\n                        <div class=\"card-text\">\n                            <h3 class=\"count pt-3  mbr-fonts-style\" mbr-theme-style=\"display-2\">10</h3>\n                            <h4 class=\"mbr-content-title mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\" data-app-selector=\".mbr-content-title\">\n                                Countries reached</h4>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"card p-3 align-center col-12 col-md-6\" mbr-if=\"cardsAmount>2\" mbr-class=\"{'col-lg-3': cardsAmount == '4','col-lg-4': cardsAmount == '3'}\">\n                    <div class=\"panel-item\">\n                        <div class=\"icon-wrap \" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbr-iconfont mbrib-github\"></span>\n                        </div>\n                        <div class=\"card-text\">\n                            <h3 class=\"count pt-3  mbr-fonts-style\" mbr-theme-style=\"display-2\">6</h3>\n                            <h4 class=\"mbr-content-title mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\" data-app-selector=\".mbr-content-title\">Open-source projects &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</h4>\n                        </div>\n                    </div>\n                </div>\n\n\n                <div class=\"card p-3 align-center col-12 col-md-6\" mbr-if=\"cardsAmount>3\" mbr-class=\"{'col-lg-3': cardsAmount == '4','col-lg-4': cardsAmount == '3'}\">\n                    <div class=\"panel-item\">\n                        <div class=\"icon-wrap \" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-setting mbr-iconfont\"></span>\n                        </div>\n\n                        <div class=\"card-texts\">\n                             <h3 class=\"count pt-3  mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                                  400\n                            </h3>\n                            <h4 class=\"mbr-content-title mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\" data-app-selector=\".mbr-content-title\">\n                                LOREM IPSUM\n                            </h4>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n   </div>\n</section>",
+          "_cid": "rVpOlIYBPV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "extCounters2-1c"
         }
       ]
     },
