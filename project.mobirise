@@ -47,7 +47,7 @@
     ],
     "imageResize": true,
     "favicon": false,
-    "cssOptimize": false,
+    "cssOptimize": true,
     "lazyLoad": false,
     "lazyType": "blur",
     "robotsSwitcher": false,
@@ -59,7 +59,14 @@
     "uniqCompNum": 48,
     "versionPublish": "4.12.1",
     "screenshot": "screenshot.png",
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "PWA": {
+      "enabled": true,
+      "name": "",
+      "icon": "@PROJECT_PATH@/assets/images/hashtag-512x512.png",
+      "themeColor": "#ab9776"
+    },
+    "pwa-switcher": true
   },
   "pages": {
     "index.html": {
