@@ -46,7 +46,7 @@
       }
     ],
     "imageResize": true,
-    "favicon": false,
+    "favicon": "@PROJECT_PATH@/assets/images/wdmpwa-128x128.png",
     "cssOptimize": true,
     "lazyLoad": false,
     "lazyType": "blur",
@@ -63,7 +63,7 @@
     "PWA": {
       "enabled": true,
       "name": "",
-      "icon": "@PROJECT_PATH@/assets/images/hashtag-512x512.png",
+      "icon": "@PROJECT_PATH@/assets/images/wdmpwa-512x512.png",
       "themeColor": "#ab9776"
     },
     "pwa-switcher": true
