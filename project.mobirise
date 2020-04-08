@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "WDM | Main",
-    "currentPage": "about.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "techm4",
       "title": "TechM4",
@@ -55,7 +55,12 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false,
+    "gdpr": {
+      "colorText": "#1a1a1a",
+      "colorLink": "#6b868d",
+      "underlineLink": true,
+      "text": "By continuing you agree to our <a href='privacy.html'>Privacy Policy</a>."
+    },
     "uniqCompNum": 49,
     "versionPublish": "4.12.1",
     "screenshot": "screenshot.png",
