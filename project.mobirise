@@ -61,7 +61,7 @@
       "underlineLink": true,
       "text": "By continuing you agree to our <a href='privacy.html'>Privacy Policy</a>."
     },
-    "uniqCompNum": 70,
+    "uniqCompNum": 71,
     "versionPublish": "4.12.1",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -787,6 +787,20 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n<center>\n    <img style=\"width: 50mm;\" src=\"https://www.wavedm.net/assets/images/wave-1242x1000.png\" alt=\"Wave Digital Ministries Network\"><img style=\"width: 70mm;\" src=\"https://api.thegreenwebfoundation.org/greencheckimage/www.wavedm.net\" alt=\"This website is hosted Green - checked by thegreenwebfoundation.org\">\n    </center>\n</div>",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 20px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-1y",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         }
       ]
     },

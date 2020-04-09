@@ -1159,6 +1159,18 @@ section.lazy-placeholder:after {
 .cid-rVACDlvKy4 .mbr-section-title {
   color: #1a1a1a;
 }
+#custom-html-1y {
+  /* Type valid CSS here */
+}
+#custom-html-1y div {
+  padding: 20px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-1y p {
+  font-size: 60px;
+  color: #777;
+}
 .cid-rSOBifUwRw {
   background-image: url("../../../assets/images/homeoffice-1920x1280.jpg");
 }
