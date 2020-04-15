@@ -1159,18 +1159,6 @@ section.lazy-placeholder:after {
 .cid-rVACDlvKy4 .mbr-section-title {
   color: #1a1a1a;
 }
-#custom-html-1y {
-  /* Type valid CSS here */
-}
-#custom-html-1y div {
-  padding: 20px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-1y p {
-  font-size: 60px;
-  color: #777;
-}
 .cid-rSOBifUwRw {
   background-image: url("../../../assets/images/homeoffice-1920x1280.jpg");
 }
@@ -2093,6 +2081,40 @@ section.lazy-placeholder:after {
     justify-content: center;
   }
 }
+.cid-rWg9kSOISa {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/waves-1920x1080.jpg");
+}
+.cid-rWg9kSOISa .mbr-section-title {
+  letter-spacing: 0.1em;
+  color: #d2dadd;
+}
+.cid-rWg9kSOISa .mbr-section-subtitle {
+  color: #444444;
+  letter-spacing: 0.03em;
+}
+.cid-rWg9kSOISa .client-name {
+  color: #444;
+  letter-spacing: 0.05em;
+}
+.cid-rWg9kSOISa .wrap-img {
+  padding-bottom: 1rem;
+}
+.cid-rWg9kSOISa .wrap-img img {
+  max-width: 100%;
+}
+.cid-rWg9kSOISa .card-box p {
+  color: #444;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding-bottom: 1.5rem;
+}
+.cid-rWg9kSOISa .client-name,
+.cid-rWg9kSOISa .wrap-img {
+  color: #d2dadd;
+}
 .cid-rVACJSERr0 {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -2173,6 +2195,14 @@ section.lazy-placeholder:after {
 }
 .cid-rVACJSERr0 .mbr-section-text {
   color: #1a1a1a;
+}
+.cid-rWg6J1pF9D {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #ab9776;
+}
+.cid-rWg6J1pF9D H1 {
+  text-align: left;
 }
 .cid-rVABl9efme {
   padding-top: 60px;
