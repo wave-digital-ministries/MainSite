@@ -27,9 +27,37 @@
 </head>
 
 <body onload="disableselect(), latest()">
-    <!-- Start: Navbar Right Links (Dark) -->
+    <nav class="navbar navbar-expand-md bg-secondary d-none d-print-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block" data-bs-theme="light" style="font-size: 12px;padding-bottom: 0px;padding-top: 0px;">
+        <div class="container-fluid"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1" style="font-size: 20px;">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="https://www.instagram.com/wdm_net/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-instagram text-dark">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+                                <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                                <path d="M16.5 7.5l0 .01"></path>
+                            </svg></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="https://twitter.com/wdm_net" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-x text-dark">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
+                                <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
+                            </svg></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="https://www.minds.com/wdm_net/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-bulb text-dark">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7"></path>
+                                <path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3"></path>
+                                <path d="M9.7 17l4.6 0"></path>
+                            </svg></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="https://gettr.com/user/wdm_net" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-letter-g text-dark">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M18 9a5 5 0 0 0 -5 -5h-2a5 5 0 0 0 -5 5v6a5 5 0 0 0 5 5h2a5 5 0 0 0 5 -5v-2h-4"></path>
+                            </svg></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav><!-- Start: Navbar Right Links (Dark) -->
     <nav class="navbar navbar-expand-md sticky-top py-3 navbar-dark" style="background: #023047;">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html"><span><img src="assets/img/wave4_w.png" style="width: 90px;"></span></a><button data-bs-toggle="collapse" class="navbar-toggler text-white" data-bs-target="#navcol-5" style="color: #000;border-color: #ffffff;"><span class="visually-hidden">Toggle navigation</span><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-menu">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html"><span><img src="assets/img/wave4_w.png" style="width: 70px;"></span></a><button data-bs-toggle="collapse" class="navbar-toggler text-white" data-bs-target="#navcol-5" style="color: #000;border-color: #ffffff;"><span class="visually-hidden">Toggle navigation</span><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-menu">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                         <path d="M4 8l16 0"></path>
                         <path d="M4 16l16 0"></path>
@@ -43,7 +71,6 @@
                     <li class="nav-item dropdown"><a class="nav-link link-light" aria-expanded="false" data-bs-toggle="dropdown" data-bss-hover-animate="pulse" href="#" style="color: #000;">More</a>
                         <div class="dropdown-menu dropdown-menu-end" style="font-family: Quicksand, sans-serif;"><a class="dropdown-item" href="about.html">About</a><a class="dropdown-item" href="impact.html">Impact</a><a class="dropdown-item" href="https://tally.so/r/nW2DrP" target="_blank">Contact</a><a class="dropdown-item" href="https://tally.so/r/3lBKO6" target="_blank">Get Involved</a><a class="dropdown-item" href="privacy-wdm.html">Privacy</a><a class="dropdown-item" href="#">Menu Item</a></div>
                     </li>
-                    <li class="nav-item" style="padding: 0px;"><a class="nav-link" href="https://tally.so/r/nW2DrP" style="padding-top: 0px;padding-bottom: 0px;" target="_blank"><button class="btn btn-outline-secondary" type="button">Contact</button></a></li>
                 </ul>
             </div>
         </div>
